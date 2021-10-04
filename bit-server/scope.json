@@ -1,0 +1,9 @@
+{
+    "name": "my-team",
+    "remotes": {},
+    "version": "1.0.154",
+    "lanes": {
+        "current": "main",
+        "tracking": []
+    }
+}
