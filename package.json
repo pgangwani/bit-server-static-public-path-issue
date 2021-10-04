@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lb": "webpack serve --open",
-    "start:bit": "cd bit-server &&  bit start --port 7001",
+    "start:bit": "cd bit-server && bit init --bare && bit start --port 7001",
     "reproduce:issue": "concurrently \"npm run start:lb\" \"npm run start:bit\""
   },
   "keywords": [],
@@ -16,11 +16,9 @@
     "concurrently": "^6.3.0"
   },
   "devDependencies": {
-    "express": "^4.17.1",
     "html-webpack-plugin": "^5.3.2",
     "webpack": "^5.56.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-middleware": "^5.2.1",
     "webpack-dev-server": "^4.3.1"
   }
 }
