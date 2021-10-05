@@ -12,8 +12,16 @@ This repo holds the load balancer setup using webpack dev server & `bit-server` 
 4. Route to [localhost:7000/bit-dev](localhost:7000/bit-dev)
 
 ## Issue (Screenshot)
-
+### 1
 ![Static assets pointing to root instead of relative](Issue.png)
+
+
+### 2
+After following the steps by bit team member, I was able to hack publicPath for `static/` folder , which made us aware with new issue of `/graphql` throws `404`. Screenshot below:
+![Working partially](Partially_working.png)
+
+![Issue 2 screenshot](Issue_2.png)
+
 
 ## Suggested fix
 1. Either static path should be relative in the html like `static/js/runtime-main.*.js` instead of `/static/js/runtime-main.*.js`

@@ -1,7 +1,7 @@
 {
-    "name": "my-team",
+    "name": "bit-server",
     "remotes": {},
-    "version": "1.0.154",
+    "version": "1.0.155",
     "lanes": {
         "current": "main",
         "tracking": []
