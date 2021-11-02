@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:lb": "webpack serve --open",
-    "start:bit": "cd bit-server && bit init --bare && bit start --port 7001",
+    "start:bit": "cd bit-server && bit-local start --rebuild --port 7001",
     "reproduce:issue": "concurrently \"npm run start:lb\" \"npm run start:bit\""
   },
   "keywords": [],

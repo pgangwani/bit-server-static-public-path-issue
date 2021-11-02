@@ -18,4 +18,4 @@ lerna-debug.log*
 #bit-server related
 bit-server/**
 
-!bit-server/scope.json
+!bit-server/scope.json*

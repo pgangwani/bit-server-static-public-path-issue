@@ -1,0 +1,5 @@
+{
+    "teambit.ui-foundation/ui": {
+        "publicPath": "/bit-dev/"
+    }
+}
